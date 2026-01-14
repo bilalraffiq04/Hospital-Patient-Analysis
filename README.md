@@ -1,7 +1,7 @@
 # Hospital Operations & Patient Health Analysis
 
 ### Project Overview
-This project involves analysing 10+ years of synthesised hospital data to evaluate operational efficiency, financial health, and patient behavior. The workflow included setting up a local **MySQL** database, performing advanced SQL analysis, and visualizing key insights in **Power BI**.
+This project involves analysing 10+ years of synthesised hospital data to evaluate operational efficiency, financial health, and patient behavior. The workflow included setting up a local MySQL database, performing advanced SQL analysis, and visualising key insights in Power BI.
 
 ![Dashboard Screenshot](dashboard_preview.png)
 *(Hospital Executive Dashboard created in Power BI)*
@@ -18,7 +18,7 @@ This project involves analysing 10+ years of synthesised hospital data to evalua
 ### Key Insights & Analysis
 
 #### 1. SQL Analysis (Logic & Code)
-I utilized SQL to answer critical business questions regarding patient flow and revenue.
+I utilised SQL to answer critical business questions regarding patient flow and revenue.
 *   **Identified Readmission Rates:** Engineered a query using `LAG()` and `DATEDIFF()` to identify that **64% of readmissions** occur within 30 days of discharge.
 *   **Revenue Cycle Analysis:** Performed `JOINs` across Payer and Encounter tables to reveal that **48% of visits had $0 insurance coverage**, highlighting a major financial risk.
 *   **Procedure Costs:** Used aggregation to rank the top 10 most expensive procedures, identifying ICU admissions (~$200k/visit) as the primary cost driver.
@@ -30,13 +30,6 @@ The interactive dashboard allows stakeholders to filter by Date and Payer to exp
 *   **Geospatial Trends:** A map visual showing revenue distribution across Massachusetts cities.
 *   **Payer Mix:** Analysis of revenue contribution by major insurance providers (Blue Cross, Medicaid, etc.).
 *   **Operational Volume:** Tracking patient admission trends from 2011–2022.
-
----
-
-### Skills Demonstrated
-*   **Data Modeling:** Built a Star Schema connecting Patients, Encounters, and Payers.
-*   **DAX:** Created custom measures for `Total Revenue`, `Avg Visit Cost`, and `Admission Count`.
-*   **UX/UI Design:** Implemented a grid layout, custom branding, and executive-level KPIs.
 
 ---
 
@@ -53,5 +46,3 @@ Dataset: [Hospital Patient Records](https://mavenanalytics.io/data-playground/ho
 
 #### Citation
 > Jason Walonoski, Mark Kramer, Joseph Nichols, Andre Quina, Chris Moesel, Dylan Hall, Carlton Duffett, Kudakwashe Dube, Thomas Gallagher, Scott McLachlan, *Synthea: An approach, method, and software mechanism for generating synthetic patients and the synthetic electronic health care record*, Journal of the American Medical Informatics Association, Volume 25, Issue 3, March 2018, Pages 230-238, https://doi.org/10.1093/jamia/ocx079
-
----
