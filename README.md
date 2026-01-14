@@ -1,7 +1,7 @@
 # Hospital Operations & Patient Health Analysis
 
 ### Project Overview
-This project involves analysing 10+ years of hospital data to evaluate operational efficiency, financial health, and patient behavior. The workflow included setting up a local **MySQL** database, performing advanced SQL analysis, and visualizing key insights in **Power BI**.
+This project involves analysing 10+ years of synthesised hospital data to evaluate operational efficiency, financial health, and patient behavior. The workflow included setting up a local **MySQL** database, performing advanced SQL analysis, and visualizing key insights in **Power BI**.
 
 ![Dashboard Screenshot](dashboard_preview.png)
 *(Hospital Executive Dashboard created in Power BI)*
